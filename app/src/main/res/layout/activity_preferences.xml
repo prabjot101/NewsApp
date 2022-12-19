@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PreferencesActivity" >
+
+    <CheckBox
+        android:id="@+id/chkGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General" />
+
+    <CheckBox
+        android:id="@+id/chkBusiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business" />
+
+    <CheckBox
+        android:id="@+id/chkEntertainment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entertainment" />
+
+    <CheckBox
+        android:id="@+id/chkHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health" />
+
+    <CheckBox
+        android:id="@+id/chkScience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Science" />
+
+    <CheckBox
+        android:id="@+id/chkSports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports" />
+
+    <CheckBox
+        android:id="@+id/chkTechnology"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technology" />
+
+    <Button
+        android:id="@+id/btnPrefSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Preferences" />
+</LinearLayout>
